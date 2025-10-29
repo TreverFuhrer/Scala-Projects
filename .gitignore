@@ -1,5 +1,46 @@
+# === Scala / sbt ===
+target/
+project/target/
+project/project/
+.metals/
+.bloop/
+.scala-build/
+.idea/
+*.iml
+.metals.sbt/
 *.class
 *.log
+*.lock
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# === VS Code ===
+.vscode/
+.history/
+*.code-workspace
+
+# === OS & Editor junk ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === Dependency Caches ===
+.coursier/
+.ivy2/
+.cache/
+.ensime_cache/
+.out/
+
+# === Test reports / coverage ===
+test-reports/
+coverage/
+*.coverage
+*.cov
+
+# === Logs ===
+logs/
+*.log
+
+# === Temporary files ===
+tmp/
+temp/

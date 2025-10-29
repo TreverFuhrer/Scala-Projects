@@ -2,7 +2,7 @@
 Author: Trever Fuhrer
 Date: Oct 28, 2025
 • What was the most challenging part of this assignment?
-    
+    Just researching Scala functions 
 • How did you use higher-order functions effectively?
 
 • What did you learn about immutability and side effects?
