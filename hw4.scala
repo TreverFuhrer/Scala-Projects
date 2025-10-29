@@ -2,11 +2,13 @@
 Author: Trever Fuhrer
 Date: Oct 28, 2025
 • What was the most challenging part of this assignment?
-    Just researching Scala functions 
+    Just researching Scala functions, and finding the most effective ones for each task.
 • How did you use higher-order functions effectively?
-
+    I used higher-order functions from my knowledge of SML and the ones I know are available in functional lanaguages.
 • What did you learn about immutability and side effects?
-
+    I learned that val is immutable since its a constant and var is mutable since its a variable.
+    I also learned that side effects are changes that occur outside of a function's scope, 
+    like modifying a global variable or printing to the console.
  */
 
 object Main {
