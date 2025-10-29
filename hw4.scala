@@ -48,17 +48,17 @@ def classifySteps(daySteps: Int): String = {
 }
 
 // 2.2
-def summarize(data : Array [Int]) : (Int, Int, Double) = {
+def summarize(data: Array [Int]): (Int, Int, Double) = {
     (data.min, data.max, data.sum.toDouble / data.length)
 }
 
 // 2.3
-def countDays(data : Array [Int], condition : Int => Boolean ) : Int = {
+def countDays(data: Array [Int], condition: Int => Boolean ): Int = {
     data.count(condition)
 }
 
 // 2.4
-def compareWeeks(data : Array [Int]) : String = {
+def compareWeeks(data: Array [Int]): String = {
     val (week1, week2) = data.splitAt(7)
     val avg1 = week1.sum.toDouble / week1.length
     val avg2 = week2.sum.toDouble / week2.length
